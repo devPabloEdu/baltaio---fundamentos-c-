@@ -1,0 +1,39 @@
+1 - Fundamentos do C#
+=
+
+ter uma experiencia com c#, te fara ser um ótimo desenvolvedor .net(dotNet), a linguagem de programação é a forma como dizemos para o computador executar algo, computadores usam a linguagem de codigos binarios (0, 1), uma linguagem faz esse intermedio, nós escrevemos o arquivo de texto e a lp faz essa tradução para codigo binario, esse processo é chamado de COMPILAÇÃO, existem diversas linguagens, onde cada uma tem seu compilador e cada um trabalha de um jeito diferente, 
+			     ALTO E BAIXO NIVEL
+Uma linguagem binaria ou a nivel de maquina é chamada de baixo nivel, as instruções enviadas para o computador sempre vao ser no formato binario, quanto mais detalhada a necessidade, mais baixo o nivel, as linguagens como c# e java sao consideradas alto nivel, porem o c, assembly é chamada de baixo nivel.
+abaixo um exemplo de hello world em c#
+![[Pasted image 20240524162721.png]]
+					LINGUAGEM COMPILADA E LINGUAGEM INTERPRETADA
+uma compilada, ela recebe o arquivo de texto e converte para uma binaria, ja uma interpretada ela e um arquivo texto puro q sao basicamente lidos, eles sao interpretados, lidos e interpretads por um interprete e feito em tempo de execução do código, q é oq acontece durante  a execução do codigo, como por exemplo o js, por exemplo nojs, o navegador e em uma linguagem de alto nivel q possui um interpretador q le e executa um arquivo javascript, 
+provavelmente voce ultilizara ambas, nao se prenda em aprender apenas uma, mas se especialize em uma.
+
+Prós de uma interpretada : não precisa de compilaçao, correções mais faceis de serem executadas e mais simples de serem distribuidas por serem arquivos estaticos.
+CONTRAS : detecção de erros somente em tempo de execução, tamanho final da aplicação maior, menor otimização da execução, multiplos arquivos.
+
+Prós de uma compilada : tempo de complaçao com detecção mais rapidas de erros, tamaho menor das aplicações, maior otimização da execução e apenas um arquivo final., no final por exemplo de um .net vc tem um exz ou uma dll, ou no mac/linux vc tem sempre uma dll.
+Contras ; precisa de um compilador, precisa de algo p transformar o c# em algo p se tornar uma baixo nivel pro computador entender, ela pode ser mais burocratica. 
+                                     TIPAGEM DE DADOS
+Tambem conhecidas como fortemente tipadas, obrigam a especificar o tipo de dado da informação, menor liberdade porem maior otimização, um tipo de dado define o formato dele, onde definimos por exemplo que aquela informação é um numero, uma letra, uma cadeia de caracteres e assim por diante. (diferente do javascript por exemplo q é fracamente tipada) se torna melhor otimizado pq sabe oq os tipos vao ocupar de lugar na memoria por exemplo, 
+exemplo abaixo, o int define q ele é um numero inteiro.
+![[Pasted image 20240524164813.png]]
+Definir tipos é padronizar dados, para nós e para o processador/memoria, o let ultiliza somente sempre o mesmo tamanho de alocação, tipando temos uma otimização. oq varia sao as quantidade de numeros q podemos alocar em cada tipagem
+![[Pasted image 20240524165042.png]]
+
+2 - c#
+===
+                Porque escolher o c#?
+as definições do c#, ela é tipada, compilada e gerenciada, criada por Anders hejlsberg, criador do typescript, delph e do c#/.net, a principal linguagem da microsoft hj é o c#, e pq aprender? ele é uma linguagem completa, ele faz parte de um ecosistema, ele n serve só p web, ele serve p mobile, machine-learning, data science e games, entre outros q utilizarm em baixo dos panos, desde 2001 p ca, ele vem sendo atualizado, ele tb tem uma maturidade mt grande, ele ja tem tempo suficiente para diversos tipos de aplicações no mercado, as empresas de porte grande, geralmente ultilizam java ou c#, por uma dificuldade de mudança maior, eles escolhem geralmente pq tem a microsoft por trás, ele tem uma aplicabilidade mt vasta como dito anteriormente, e ele tb é orientado a objetos.
+              C# COMO SUA PRIMEIRA LINGUAGEM
+Não é a mais facil, ela é focada em oop, orientação orientada a objetos, q é a base da programação, mas tem tambem a programação funcional.
+	                CÓDIGO GERENCIADO
+Como o c# funciona? é uma linguagem tipada, é compilada e de código gerenciado, oq é isso? significa que sua execução depende de um gerenciador, o gerenciador do .net é o runtime, no caso do c# o runtime se chama clr ou common language runtime, gerencia memória, segurança e entre outros recursos básicos, significa q n precisamos nos importar com essas coisas como alocação de memória e etc.
+Em c/c++ eles nao tem um gerenciador, eles estão fora do .net, entao vc tem q alocar a memoria manualmente diferente do gerenciador cml runtime q ja faz isso p vc no c#, ele limpa memoria, onde alocar e como gerenciar diversas outras funções.
+                    COMPILAÇÃO E GERENCIAMENTO
+A microsoft ela possui outras linguagens como o vb.net, o f#, o cobol.net e entre outras, elas precisam ser mantidas e a sua manutenção de codigos e bugs é executada frequentemente da microsoft, quando o ecosistema da microsoft foi criado desta forma para suportar varias linguagens essa é a motivação do .net, se cada lingugagem tivesse um gerenciador isso seria muito complicado, entao a microsoft pensando nisso ela criou um ecosistema .net onde tem diversos compiladores, onde ficam separados para cada linguagem, a compilação inicial gera um codigo intermediario chamada IL, sigla para intermediate language ou linguagem intermediaria.
+                    IL
+a linguagem intermediaria ela funciona desta forma em exemplo
+![[Pasted image 20240524174227.png]]
+embora as compilações sejam diferentes o gerenciamento/execução de instruções e alocaçãoé igual para todas as linguagen, o clr recebe o codigo e compila para o IL (podemos ter arquivos c# e vbnet no mesmo projeto, nunca no mesmo arquivo) o resultado da compilaçao do il é sempre  o mesmo. o JIT, significa Just in time ele é o processo de conversão do il pro binario, esse é o nome da compilação just in time.
