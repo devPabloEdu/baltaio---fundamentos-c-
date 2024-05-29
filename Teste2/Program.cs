@@ -4,3 +4,9 @@ Console.WriteLine("Hello, World!");
 string nome = "pablo";
 Console.WriteLine("meu nome é");
 Console.WriteLine(nome);
+
+int idade = 123;
+const int idadeMinima = 25;
+
+Console.WriteLine(idade);
+Console.WriteLine(idadeMinima);
