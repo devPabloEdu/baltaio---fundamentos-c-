@@ -10,3 +10,11 @@ const int idadeMinima = 25;
 
 Console.WriteLine(idade);
 Console.WriteLine(idadeMinima);
+
+    /*
+    comentario de multiplas linhas
+    */
+
+    //comentario de uma linha só
+
+    ///comentario xml 
