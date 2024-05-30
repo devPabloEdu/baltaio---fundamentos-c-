@@ -20,6 +20,10 @@ namespace Meuapp
             sbyte meuSbyte = -125;
 
             byte meuByte = 127;
+
+            bool usuarioJaCadastrado = false;
+
+            bool pagamentoRecebido = true;
             
             string texto2 = "teste3";
             Console.WriteLine(texto2);
