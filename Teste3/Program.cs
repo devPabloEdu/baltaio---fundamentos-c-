@@ -8,6 +8,8 @@ namespace Meuapp
         {
 
             
+            sbyte meuSbyte = -125;
+
             byte meuByte = 127;
             
             string texto2 = "teste3";
