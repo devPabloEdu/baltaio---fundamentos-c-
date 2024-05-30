@@ -7,6 +7,8 @@ namespace Meuapp
         static void Main(string[] args)
         {
 
+            int idade2 = 25; //o mais comum é ultilizarmos o int.
+
             
             sbyte meuSbyte = -125;
 
