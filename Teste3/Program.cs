@@ -9,7 +9,12 @@ namespace Meuapp
 
             int idade2 = 25; //o mais comum é ultilizarmos o int.
 
-            
+             float salario = 2.500f; //precisamos colocar um f no final do numero para definirmos ele como float
+
+            decimal salarioAnual = 25.000m; //para definirmos um decimal devemos colocar o m no final
+
+            double salarioTrimestral = 25.000;// o double n precisa pq ele ja é o tipo padrao de um numero com ponto flutuante
+
             sbyte meuSbyte = -125;
 
             byte meuByte = 127;
