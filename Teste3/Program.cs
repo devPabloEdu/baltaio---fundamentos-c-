@@ -15,12 +15,16 @@ namespace Meuapp
 
             double salarioTrimestral = 25.000;// o double n precisa pq ele ja é o tipo padrao de um numero com ponto flutuante
 
+            double numeroquebtado = 2500.10; 
+
             sbyte meuSbyte = -125;
 
             byte meuByte = 127;
             
             string texto2 = "teste3";
             Console.WriteLine(texto2);
+
+            Console.WriteLine(numeroquebtado);
         }
     }
     
