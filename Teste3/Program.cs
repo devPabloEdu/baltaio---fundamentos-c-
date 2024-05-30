@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //ja é um tipo implicito, mesmo q eu remova, tudo como objeto e variavel ja é derivado dele
 
 namespace Meuapp
 {
