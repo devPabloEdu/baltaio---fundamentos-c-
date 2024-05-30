@@ -6,6 +6,10 @@ namespace Meuapp
     {
         static void Main(string[] args)
         {
+
+            
+            byte meuByte = 127;
+            
             string texto2 = "teste3";
             Console.WriteLine(texto2);
         }
