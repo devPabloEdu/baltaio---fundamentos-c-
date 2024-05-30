@@ -29,6 +29,13 @@ namespace Meuapp
 
             
             string texto2 = "teste3";
+
+
+            var idade3 = 25; //var atribuido como um int
+
+            var nomecompleto = "pablo eduardo"; // var atribuido como uma string
+
+
             Console.WriteLine(texto2);
 
             Console.WriteLine(numeroquebtado);
