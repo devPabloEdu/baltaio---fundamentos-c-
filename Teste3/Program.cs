@@ -24,6 +24,9 @@ namespace Meuapp
             bool usuarioJaCadastrado = false;
 
             bool pagamentoRecebido = true;
+
+            char primeiraletra = 'c';
+
             
             string texto2 = "teste3";
             Console.WriteLine(texto2);
