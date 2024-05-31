@@ -43,8 +43,13 @@ namespace Meuapp
 
             float valor =25.8f;
             int outro = 25;
-            valor = outro;
+            valor = outro; //conversão implicita
             Console.WriteLine(valor);
+
+            int inteiro = 100;
+            uint inteiroSemSinal = (uint)inteiro; //conversão explicita
+            Console.WriteLine(inteiro);
+            Console.WriteLine(inteiroSemSinal);
 
             Console.WriteLine(texto2);
 
