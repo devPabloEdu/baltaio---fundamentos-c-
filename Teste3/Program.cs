@@ -38,6 +38,9 @@ namespace Meuapp
             object quantidade; //pdoemos passar qualquer informação pra ele
 
 
+            int? idadenula = null;
+            Console.WriteLine(idadenula);
+
             Console.WriteLine(texto2);
 
             Console.WriteLine(numeroquebtado);
