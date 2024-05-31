@@ -41,6 +41,11 @@ namespace Meuapp
             int? idadenula = null;
             Console.WriteLine(idadenula);
 
+            float valor =25.8f;
+            int outro = 25;
+            valor = outro;
+            Console.WriteLine(valor);
+
             Console.WriteLine(texto2);
 
             Console.WriteLine(numeroquebtado);
