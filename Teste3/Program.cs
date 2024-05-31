@@ -35,7 +35,7 @@ namespace Meuapp
 
             var nomecompleto = "pablo eduardo"; // var atribuido como uma string
 
-            object quantidade;
+            object quantidade; //pdoemos passar qualquer informação pra ele
 
 
             Console.WriteLine(texto2);
