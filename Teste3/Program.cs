@@ -51,6 +51,16 @@ namespace Meuapp
             Console.WriteLine(inteiro);
             Console.WriteLine(inteiroSemSinal);
 
+            int inteirao = 100;
+            float real = 25.5f;
+            //real = inteirao;  // ele passou a valer 100.0f
+            //inteirao = (int)real; //ele vai arredondar para 25 (ele arredonda p baixo)
+            inteirao = int.Parse(real.ToString);
+            Console.WriteLine(inteirao);
+
+
+            
+
             Console.WriteLine(texto2);
 
             Console.WriteLine(numeroquebtado);
