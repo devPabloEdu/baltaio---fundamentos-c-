@@ -52,13 +52,15 @@ namespace Meuapp
             Console.WriteLine(inteiroSemSinal);
 
             int inteirao = 100;
-            float real = 25.5f;
+            float real = 25.8f;
             //real = inteirao;  // ele passou a valer 100.0f
             //inteirao = (int)real; //ele vai arredondar para 25 (ele arredonda p baixo)
-            inteirao = int.Parse(real.ToString);
+            //string valorReal = real.ToString();
+            //inteirao = int.Parse(valorReal); //o parse nao conseguiu usar
+            inteirao = Convert.ToInt32(real); //ELE VAI CONVERTER PARA 26
+            //Console.WriteLine(valorReal);
             Console.WriteLine(inteirao);
-
-
+            Console.WriteLine(Convert.ToBoolean(1));
             
 
             Console.WriteLine(texto2);
