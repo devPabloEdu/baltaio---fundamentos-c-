@@ -67,14 +67,17 @@ namespace Meuapp
 
             Console.WriteLine(numeroquebtado);
 
-
             //teste
-            string x = "1234e5";
-            if (x != "1234E5"){
-                Console.WriteLine("teste correto");
-            } else {
-                Console.WriteLine("incorreto");
-            }
+            // string x = "1234e5";
+            // if (x != "1234E5"){
+            //     Console.WriteLine("teste correto");
+            // } else {
+            //     Console.WriteLine("incorreto");
+            // }
+
+            int x = 2;
+            x = 2 / 2;
+            Console.WriteLine(x);
         }
     }
     
