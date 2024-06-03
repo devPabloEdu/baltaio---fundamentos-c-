@@ -70,7 +70,7 @@ namespace Meuapp
 
             //teste
             string x = "1234e5";
-            if (x == "1234e5"){
+            if (x != "1234E5"){
                 Console.WriteLine("teste correto");
             } else {
                 Console.WriteLine("incorreto");
