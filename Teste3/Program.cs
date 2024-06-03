@@ -84,6 +84,29 @@ namespace Meuapp
             // int y = 4;
             // bool negando = !( y < 3 ); //vai retornar true, pq inverte na vdd y é maior q trres
             // Console.WriteLine(negando);
+
+
+            if(25 != 32)
+            {
+                Console.WriteLine("é diferente");
+            } else {
+                Console.WriteLine("é igual");
+            }
+            Console.WriteLine("finalizou o programa");
+
+            //outro exemplo de if. else if e else
+            int idade = 16;
+            const int maioridade =  18;
+
+            Console.WriteLine("--------------");
+            if (idade >= maioridade){
+                Console.WriteLine("voce pode dirigir");
+            } else if ( idade <= 15 ) {
+                Console.WriteLine("voce ainda é um bebe");
+            } else {
+                Console.WriteLine("voce esta quase la!!");
+            }
+            Console.WriteLine("-------------");
         }
     }
     
