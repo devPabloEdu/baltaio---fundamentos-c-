@@ -116,6 +116,12 @@ namespace Meuapp
                 case "andre": Console.WriteLine("é o cara"); break;
                 default: Console.WriteLine("não encontrei!!!"); break;
             }
+
+            //testando o for
+            // for (int testedofor = 0; testedofor <= 10; testedofor++){
+            //     Console.WriteLine("+1");
+            // }
+            // Console.WriteLine("saiu do laço");
         }
     }
     
