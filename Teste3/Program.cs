@@ -76,7 +76,8 @@ namespace Meuapp
             // }
 
             int x = 2;
-            x = 2 / 2;
+            //x = 2 + 2 * 2;
+            x += 3; // x = x + 3;
             Console.WriteLine(x);
         }
     }
