@@ -137,6 +137,16 @@ namespace Meuapp
                 Console.WriteLine(testedodowhile);
                 testedodowhile++;
             } while (testedodowhile < 5);
+
+            //testando função 
+
+            static string RetornaNome(string nome5, string sobrenome5)
+            {
+                return nome5 + " " + sobrenome5;
+            }
+            string nomecompleto5 = RetornaNome("pablo", "eduardo");
+            Console.WriteLine(nomecompleto5);
+
         }
     }
     
