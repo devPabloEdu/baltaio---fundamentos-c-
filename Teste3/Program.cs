@@ -107,6 +107,15 @@ namespace Meuapp
                 Console.WriteLine("voce esta quase la!!");
             }
             Console.WriteLine("-------------");
+
+            string nomepadrao = "paulo";
+            switch (nomepadrao)
+            {
+                case "joao": Console.WriteLine("não é o cara"); break;
+                case "marcelo": Console.WriteLine("não é o cara"); break;
+                case "andre": Console.WriteLine("é o cara"); break;
+                default: Console.WriteLine("não encontrei!!!"); break;
+            }
         }
     }
     
