@@ -118,10 +118,19 @@ namespace Meuapp
             }
 
             //testando o for
-            // for (int testedofor = 0; testedofor <= 10; testedofor++){
-            //     Console.WriteLine("+1");
-            // }
-            // Console.WriteLine("saiu do laço");
+            for (int testedofor = 0; testedofor <= 10; testedofor++){
+                Console.WriteLine(testedofor);
+            }
+            Console.WriteLine("saiu do laço");
+
+            //testando o while
+            int testedowhile = 0;
+            while(testedowhile <= 5)
+            {
+                Console.WriteLine(testedowhile);
+                testedowhile++;
+            }
+            
         }
     }
     
