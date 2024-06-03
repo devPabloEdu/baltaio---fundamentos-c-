@@ -130,7 +130,13 @@ namespace Meuapp
                 Console.WriteLine(testedowhile);
                 testedowhile++;
             }
-            
+
+            //testando o do while
+            int testedodowhile = 0;
+            do{
+                Console.WriteLine(testedodowhile);
+                testedodowhile++;
+            } while (testedodowhile < 5);
         }
     }
     
