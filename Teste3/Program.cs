@@ -79,6 +79,11 @@ namespace Meuapp
             //x = 2 + 2 * 2;
             x += 3; // x = x + 3;
             Console.WriteLine(x);
+
+            //teste
+            // int y = 4;
+            // bool negando = !( y < 3 ); //vai retornar true, pq inverte na vdd y é maior q trres
+            // Console.WriteLine(negando);
         }
     }
     
