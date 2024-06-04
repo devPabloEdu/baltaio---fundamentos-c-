@@ -6,7 +6,12 @@ namespace Meuapp
     {
         static void Main(string[] args)
         {
-            
+            Product mouse = new Product(1, "MOUSE GANER", 2.99);
+            Console.WriteLine(mouse.Id);
+            Console.WriteLine(mouse.Name);
+            Console.WriteLine(mouse.Price);
+            Console.WriteLine("-----------");
+
             MeuMetodo();
             string nomecompleto6 = RetornaNome2("pablo", "eduardo", 22);
             Console.WriteLine(nomecompleto6);
@@ -173,6 +178,7 @@ namespace Meuapp
             Console.WriteLine(arr[0]);
             Console.WriteLine(arr2[0]); // mudou tb pq é um refference type
             
+
         }
         static void MeuMetodo()
             {
@@ -184,5 +190,21 @@ namespace Meuapp
             return nome6 + " " +  sobrenome6 + " tem " + idade6.ToString() + " anos";
         }
     }
-    
+    struct Product
+    {
+        public Product(int id, string name, double price)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+        }
+
+        public int Id;
+        public string Name;
+        public double Price;
+
+        public double PriceInDollar(double dolar) {
+            return Price * dolar;
+        }
+    }
 }
