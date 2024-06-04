@@ -152,8 +152,26 @@ namespace Meuapp
             Console.WriteLine(nomecompleto5);
 
 
-            //outro teste
+            //value types
+            int xx = 25;
+            int yy = xx;
+            Console.WriteLine(xx); 
+            Console.WriteLine(yy);
 
+            xx = 32;
+            Console.WriteLine(xx); 
+            Console.WriteLine(yy); // se manteve o valor pq é um value type
+
+            //refference type
+            var arr = new string[2];
+            arr[0] = "item 1";
+
+            var arr2 = arr;
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr2[0]);
+            arr[0] = "item 2";
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr2[0]); // mudou tb pq é um refference type
             
         }
         static void MeuMetodo()
