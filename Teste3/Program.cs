@@ -6,6 +6,10 @@ namespace Meuapp
     {
         static void Main(string[] args)
         {
+            
+            MeuMetodo();
+            string nomecompleto6 = RetornaNome2("pablo", "eduardo", 22);
+            Console.WriteLine(nomecompleto6);
 
             int idade2 = 25; //o mais comum é ultilizarmos o int.
 
@@ -147,6 +151,19 @@ namespace Meuapp
             string nomecompleto5 = RetornaNome("pablo", "eduardo");
             Console.WriteLine(nomecompleto5);
 
+
+            //outro teste
+
+            
+        }
+        static void MeuMetodo()
+            {
+                Console.WriteLine("c# é legal!!");
+            }
+
+        static string RetornaNome2(string nome6, string sobrenome6, int idade6)
+        {
+            return nome6 + " " +  sobrenome6 + " tem " + idade6.ToString() + " anos";
         }
     }
     
