@@ -8,7 +8,7 @@ namespace ComparandoJava
         {
             string nome155 = "Pablo";
             string nomeDeTeste = "pablo";
-            Console.WriteLine(nome155.equals(nomeDeTeste));
+            Console.WriteLine(nome155 == nomeDeTeste);
         }
     }
 }
