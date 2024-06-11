@@ -1,14 +1,18 @@
 ﻿using System; //ja é um tipo implicito, mesmo q eu remova, tudo como objeto e variavel ja é derivado dele
 
-namespace ComparandoJava
+namespace TabuadaEmCsharp
 {
-    class Cjava
+    class Tabuada
     {
         static void Main(string[] args)
         {
-            string nome155 = "Pablo";
-            string nomeDeTeste = "pablo";
-            Console.WriteLine(nome155 == nomeDeTeste);
+            Console.WriteLine("escreva um numero");
+            int  numeroEscolhidoTexto = int.Parse(Console.ReadLine()); //nao aceita parametros
+            
+
+                for(int i = 1; i <=10; i++) {
+                    Console.WriteLine($"{numeroEscolhidoTexto} x {i} = {numeroEscolhidoTexto * i}"); 
+            }
         }
     }
 }
