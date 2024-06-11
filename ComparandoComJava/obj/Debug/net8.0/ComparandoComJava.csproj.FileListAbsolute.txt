@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\programação\baltaio - fundamentos c#\baltaio---fundamentos-c-\ComparandoComJava\obj\Debug\net8.0\ComparandoComJava.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\programação\baltaio - fundamentos c#\baltaio---fundamentos-c-\ComparandoComJava\obj\Debug\net8.0\ComparandoComJava.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\programação\baltaio - fundamentos c#\baltaio---fundamentos-c-\ComparandoComJava\obj\Debug\net8.0\ComparandoComJava.AssemblyInfo.cs
+C:\Users\Admin\Desktop\programação\baltaio - fundamentos c#\baltaio---fundamentos-c-\ComparandoComJava\obj\Debug\net8.0\ComparandoComJava.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\programação\baltaio - fundamentos c#\baltaio---fundamentos-c-\ComparandoComJava\obj\Debug\net8.0\ComparandoComJava.sourcelink.json

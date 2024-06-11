@@ -189,6 +189,8 @@ namespace Meuapp
             arr[0] = "item 2";
             Console.WriteLine(arr[0]);
             Console.WriteLine(arr2[0]); // mudou tb pq é um refference type
+
+            
             
 
         }
