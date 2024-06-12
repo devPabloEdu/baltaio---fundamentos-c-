@@ -6,7 +6,8 @@ namespace TabuadaEmCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("escreva um numero");
+            Console.Clear();
+            Console.WriteLine(" Escreva um número abaixo: ");
             int  numeroEscolhidoTexto = int.Parse(Console.ReadLine()); //nao aceita parametros
             
 
