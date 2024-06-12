@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComparandoComJava")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be032472c8c0e4e64532991d6d424915d7530c94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97bd0c1965fd97658d6a08c3a627c0d01ee32f5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComparandoComJava")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComparandoComJava")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
